@@ -1,0 +1,14 @@
+## Commands to run ChimeraX based on notebook "MTH_Docking_Part1_Prepare.ipynb"
+
+# open the protein structure files
+open ~/mth_docking/receptor/*.pdb
+
+# add hydrogens if needed
+addh
+
+# align structures using matchmaker structures to reference
+# change the model numbers below to select your reference structure
+matchmaker #2-10 to #1
+
+# save aligned structures
+save ~/mth_docking/receptor/2FLU-wt_H_[ID] format pdb models #1-10 relModel #1
