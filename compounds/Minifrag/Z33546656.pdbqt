@@ -1,0 +1,18 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N_1  and  C_2 
+REMARK    1  A    between atoms: C_2  and  C_4 
+ROOT
+ATOM      1  N   UNL d   1      -0.403  -0.207  -2.630  0.00  0.00    -0.370 N 
+ATOM      2  C   UNL d   1      -0.433  -0.595  -1.343  0.00  0.00     0.219 C 
+ATOM      3  O   UNL d   1      -1.094  -1.619  -1.054  0.00  0.00    -0.273 OA
+ATOM      4  H   UNL d   1      -0.866  -0.740  -3.316  0.00  0.00     0.159 HD
+ATOM      5  H   UNL d   1       0.083   0.610  -2.887  0.00  0.00     0.159 HD
+ENDROOT
+BRANCH   2   6
+ATOM      6  C   UNL d   1       0.262   0.201  -0.302  0.00  0.00     0.077 A 
+ATOM      7  C   UNL d   1       0.889  -0.581   0.878  0.00  0.00     0.014 A 
+ATOM      8  C   UNL d   1      -0.068   0.123   1.857  0.00  0.00     0.002 A 
+ATOM      9  C   UNL d   1      -0.689   0.909   0.690  0.00  0.00     0.014 A 
+ENDBRANCH   2   6
+TORSDOF 1
