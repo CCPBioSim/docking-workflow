@@ -1,6 +1,6 @@
 # CCPBioSim Docking Workshop
 
-[![build](https://github.com/ccpbiosim/docking-workshop/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/ccpbiosim/docking-workshop/actions/workflows/build.yaml)
+[![build](https://github.com/ccpbiosim/docking-workflow/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/ccpbiosim/docking-workflow/actions/workflows/build.yaml)
 
 This is a repository for a set of Jupyter notebooks to create a workflow for docking ligands to multiple protein receptors and analysing the results.
 
