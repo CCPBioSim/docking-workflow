@@ -11,7 +11,7 @@ WORKDIR $HOME
 
 # Install workshop deps
 RUN mamba install oddt::oddt -y
-RUN mamba install termcolor matplotlib seaborn pandas openbabel vina
+RUN mamba install termcolor numpy=2.3.5 matplotlib seaborn pandas openbabel vina
 
 # Get workshop files and move them to jovyan directory.
 COPY --chown=1000:100 . .
