@@ -10,9 +10,18 @@ USER $NB_USER
 WORKDIR $HOME
 
 # Install workshop deps
-RUN mamba install oddt::oddt -y
-RUN pip install openbabel-wheel
-RUN mamba install termcolor numpy=2.3.5 matplotlib seaborn pandas vina
+RUN conda install -y -c conda-forge -c oddt \
+    conda-forge::matplotlib=3.11.1 \
+    conda-forge::numpy=2.5.3 \
+    conda-forge::pandas=3.0.5 \
+    conda-forge::seaborn=0.13.2 \
+    conda-forge::termcolor=3.3.0 \
+    conda-forge::vina=1.2.7 \
+    oddt::oddt=0.7
+RUN pip install --no-cache-dir \
+    openbabel-wheel==3.1.1.23
+
+RUN mamba install     
 
 # Get workshop files and move them to jovyan directory.
 COPY --chown=1000:100 . .
