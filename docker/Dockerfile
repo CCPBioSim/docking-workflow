@@ -19,9 +19,7 @@ RUN conda install -y -c conda-forge -c oddt \
     conda-forge::vina=1.2.7 \
     oddt::oddt=0.7
 RUN pip install --no-cache-dir \
-    openbabel-wheel==3.1.1.23
-
-RUN mamba install     
+    openbabel-wheel==3.1.1.23 
 
 # Get workshop files and move them to jovyan directory.
 COPY --chown=1000:100 . .
