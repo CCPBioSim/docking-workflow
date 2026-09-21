@@ -11,7 +11,7 @@ WORKDIR $HOME
 
 # Install workshop deps
 RUN conda install -y -c conda-forge -c oddt \
-    conda-forge::matplotlib=3.11.1 \
+    conda-forge::matplotlib=3.11.2 \
     conda-forge::numpy=2.3.5 \
     conda-forge::pandas=3.0.5 \
     conda-forge::seaborn=0.13.2 \
