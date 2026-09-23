@@ -13,7 +13,7 @@ WORKDIR $HOME
 RUN conda install -y -c conda-forge -c oddt \
     conda-forge::matplotlib=3.11.2 \
     conda-forge::numpy=2.3.5 \
-    conda-forge::pandas=3.0.5 \
+    conda-forge::pandas=3.0.6 \
     conda-forge::seaborn=0.13.2 \
     conda-forge::termcolor=3.3.0 \
     conda-forge::vina=1.2.7 \
